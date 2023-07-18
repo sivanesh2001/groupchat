@@ -42,7 +42,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <footerclassName="footer items-center p-4 text-neutral-content fixed bottom-0 w-full" style={{ backgroundColor: "#041E42", color: "white" }}>
+     <footer className="footer items-center p-4 text-neutral-content fixed bottom-0 w-full" style={{ backgroundColor: "#041E42", color: "white" }}>
         <div className="items-center grid-flow-col">
           <p>Developed by Sivaneshwaran R N </p>
         </div>
