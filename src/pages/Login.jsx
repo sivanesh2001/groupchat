@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <div>
-      <div className="hero min-h-screen"style={{ backgroundColor: "#E1EBEE", color: "" }}>
+      <div className="hero min-h-screen"style={{ backgroundColor: "#E1EBEE", color: "black" }}>
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold"> Say Hello..!👋🏻</h1>
