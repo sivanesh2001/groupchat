@@ -31,7 +31,7 @@ const SendMessage = () => {
   
 
   return (
-    <div className="bg-gray-300 fixed bottom-0 w-full py-5 shadow-lg">
+   <div className="bg-300 fixed bottom-0 w-full py-5 shadow-lg" style={{ backgroundColor: "#041E42"}}>
       <form onSubmit={handleSentMessage} className="containerWrap flex px-4">
         <input
           value={value}
@@ -40,7 +40,7 @@ const SendMessage = () => {
           type="text"
         />
         {value.trim() === "" ? (
-          <button type="submit" className="btn btn-neutral">
+          <button type="submit" className="btn" style={{ backgroundColor: "#AFDBF5"}}>
             Send
           </button>
         ) : null}
