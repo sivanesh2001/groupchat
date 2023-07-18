@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <div>
-      <div className="hero min-h-screen bg-base-100">
+      <div className="hero min-h-screen"style={{ backgroundColor: "#E1EBEE", color: "" }}>
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold"> Say Hello..!👋🏻</h1>
@@ -42,7 +42,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <footer className=" footer items-center p-4 bg-neutral text-neutral-content fixed bottom-0 w-full">
+      <footerclassName="footer items-center p-4 text-neutral-content fixed bottom-0 w-full" style={{ backgroundColor: "#041E42", color: "white" }}>
         <div className="items-center grid-flow-col">
           <p>Developed by Sivaneshwaran R N </p>
         </div>
